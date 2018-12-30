@@ -169,6 +169,7 @@
         <h3>GOES-East</h3>
             <div class="row">
             #if $Extras.has_key('map_19_image_url')
+            <h4>CONUS GeoColor (True Color daytime, multispectral IR at night)</h4>
             <div class="col col-6 crd graph-crd">
                 <a href="$Extras.map_19_link_url" target="_blank">
                     <img src="$Extras.map_19_image_url">
@@ -176,6 +177,7 @@
             </div>
             #end if
             #if $Extras.has_key('map_20_image_url')
+            <h4>Northern Rockies GeoColor (True Color daytime, multispectral IR at night)</h4>
             <div class="col col-6 crd graph-crd">
                 <a href="$Extras.map_20_link_url" target="_blank">
                     <img src="$Extras.map_20_image_url">
@@ -185,6 +187,7 @@
         </div>
             <div class="row">
             #if $Extras.has_key('map_21_image_url')
+            <h4>Northern Rockies Band 2 (Red - Visible)</h4>
             <div class="col col-6 crd graph-crd">
                 <a href="$Extras.map_21_link_url" target="_blank">
                     <img src="$Extras.map_21_image_url">
@@ -192,6 +195,7 @@
             </div>
             #end if
             #if $Extras.has_key('map_22_image_url')
+            <h4>Northern Rockies Band 7 (Shortwave Window - IR)</h4>
             <div class="col col-6 crd graph-crd">
                 <a href="$Extras.map_22_link_url" target="_blank">
                     <img src="$Extras.map_22_image_url">
@@ -201,9 +205,18 @@
         </div>
             <div class="row">
             #if $Extras.has_key('map_23_image_url')
+            <h4>Northern Rockies Band 8 (Upper-Level Water Vapor - IR)</h4>
             <div class="col col-6 crd graph-crd">
                 <a href="$Extras.map_23_link_url" target="_blank">
                     <img src="$Extras.map_23_image_url">
+                </a>
+            </div>
+            #end if
+            #if $Extras.has_key('map_24_image_url')
+            <h4>Northern Rockies Band 13 (Clean Longwave Window - IR)</h4>
+            <div class="col col-6 crd graph-crd">
+                <a href="$Extras.map_24_link_url" target="_blank">
+                    <img src="$Extras.map_24_image_url">
                 </a>
             </div>
             #end if
@@ -212,6 +225,7 @@
         <h3>Weather Maps</h3>
         <div class="row">
             #if $Extras.has_key('map_16_image_url')
+            <h4>Day 1</h4>
             <div class="col col-6 crd graph-crd">
                 <a href="$Extras.map_16_link_url" target="_blank">
                     <img src="$Extras.map_16_image_url">
@@ -219,6 +233,7 @@
             </div>
             #end if
             #if $Extras.has_key('map_17_image_url')
+            <h4>Day 2</h4>
             <div class="col col-6 crd graph-crd">
                 <a href="$Extras.map_17_link_url" target="_blank">
                     <img src="$Extras.map_17_image_url">
@@ -228,6 +243,7 @@
         </div>
         <div class="row">
             #if $Extras.has_key('map_18_image_url')
+            <h4>Day 3</h4>
             <div class="col col-6 crd graph-crd">
                 <a href="$Extras.map_18_link_url" target="_blank">
                     <img src="$Extras.map_18_image_url">
@@ -273,6 +289,7 @@
         <h3>Hazardous Weather Outlook</h3>
         <div class="row">
             #if $Extras.has_key('map_7_image_url')
+            <h4>Day 1</h4>
             <div class="col col-6 crd graph-crd">
                 <a href="$Extras.map_7_link_url" target="_blank">
                     <img src="$Extras.map_7_image_url">
@@ -280,6 +297,7 @@
             </div>
             #end if
             #if $Extras.has_key('map_8_image_url')
+            <h4>Day 2</h4>
             <div class="col col-6 crd graph-crd">
                 <a href="$Extras.map_8_link_url" target="_blank">
                     <img src="$Extras.map_8_image_url">
@@ -289,6 +307,7 @@
         </div>
         <div class="row">
             #if $Extras.has_key('map_9_image_url')
+            <h4>Day 3</h4>
             <div class="col col-6 crd graph-crd">
                 <a href="$Extras.map_9_link_url" target="_blank">
                     <img src="$Extras.map_9_image_url">
@@ -296,6 +315,7 @@
             </div>
             #end if
             #if $Extras.has_key('map_10_image_url')
+            <h4>Day 4</h4>
             <div class="col col-6 crd graph-crd">
                 <a href="$Extras.map_10_link_url" target="_blank">
                     <img src="$Extras.map_10_image_url">
@@ -318,6 +338,7 @@
         <h3>SPC Convective Outlook</h3>
         <div class="row">
             #if $Extras.has_key('map_12_image_url')
+            <h4>Day 1</h4>
             <div class="col col-6 crd graph-crd">
                 <a href="$Extras.map_12_link_url" target="_blank">
                     <img src="$Extras.map_12_image_url">
@@ -325,6 +346,7 @@
             </div>
             #end if
             #if $Extras.has_key('map_13_image_url')
+            <h4>Day 2</h4>
             <div class="col col-6 crd graph-crd">
                 <a href="$Extras.map_13_link_url" target="_blank">
                     <img src="$Extras.map_13_image_url">
@@ -334,6 +356,7 @@
         </div>
         <div class="row">
             #if $Extras.has_key('map_14_image_url')
+            <h4>Day 3</h4>
             <div class="col col-6 crd graph-crd">
                 <a href="$Extras.map_14_link_url" target="_blank">
                     <img src="$Extras.map_14_image_url">
